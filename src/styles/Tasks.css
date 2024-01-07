@@ -1,0 +1,34 @@
+.equal-width-table {
+  width: 100%;
+  
+}
+
+.equal-width-table th,
+.equal-width-table td {
+  width: 25%;
+  border: none;
+  text-align: left;
+  padding: 8px;
+
+}
+
+@media (max-width: 500px) {
+  .equal-width-table th,
+  .equal-width-table td {
+    width: 20px;
+  }
+}
+
+.deleteButtom{
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  color: brown;
+}
+.action{
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(42, 61, 165);
+}
